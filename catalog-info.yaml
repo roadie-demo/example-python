@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-python
+  title: example-python
+  description: An example python app
+  annotations:
+    github.com/project-slug: roadie-demo/example-python
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+spec:
+  type: service
+  owner: group:roadie-demo/solutions
+  lifecycle: production
